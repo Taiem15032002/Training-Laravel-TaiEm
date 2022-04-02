@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "0cbb7870cc266033a632418e976fa9bf",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4812,6 +4812,47 @@
             "time": "2022-03-02T12:42:23+00:00"
         },
         {
+            "name": "taiem15032002/mypackage",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Taiem15032002/myPackage.git",
+                "reference": "1e6cd3a117779cf3ff2f3c353c0dbd79cd856af8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Taiem15032002/myPackage/zipball/1e6cd3a117779cf3ff2f3c353c0dbd79cd856af8",
+                "reference": "1e6cd3a117779cf3ff2f3c353c0dbd79cd856af8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Taiem15032002\\Mypackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taiem15032002",
+                    "email": "Lytai15032019@gmail.com"
+                }
+            ],
+            "description": "mypackage",
+            "keywords": [
+                "Mypackage"
+            ],
+            "support": {
+                "issues": "https://github.com/Taiem15032002/myPackage/issues",
+                "source": "https://github.com/Taiem15032002/myPackage/tree/main"
+            },
+            "time": "2022-03-26T08:33:29+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.4",
             "source": {
@@ -7587,7 +7628,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "taiem15032002/mypackage": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
